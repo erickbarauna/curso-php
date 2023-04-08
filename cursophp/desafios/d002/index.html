@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com Formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerando Números Aleatórios</h1>
+    </header>
+    <section>
+        <form action="resposta.php" method="get">
+            <div>
+                <label for="idnumeromin">Número mínimo: </label>
+                <input type="number" name="numeromin" id="idnumeromin">
+            </div>
+            <div>
+                <label for="idnumeromax">Número máximo: </label>
+                <input type="number" name="numeromax" id="idnumeromax">
+            </div>
+            <div>
+                <input type="submit" value="Gerar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
